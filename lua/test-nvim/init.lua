@@ -1,2 +1,2 @@
-require("notify").notify("hello from test-nvim")
+require("notify").notify("updated nvim-test 2")
 
