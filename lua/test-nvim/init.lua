@@ -1,2 +1,1 @@
-require("notify").notify("updated nvim-test 2")
-
+vim.notify("updated nvim-test 3")
