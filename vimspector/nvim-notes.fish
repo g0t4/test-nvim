@@ -1,3 +1,7 @@
+
+
+# based on this guide: https://puremourning.github.io/vimspector-web/demo-setup.html
+
 git clone https://github.com/neovim/neovim
 cd neovim
 make
