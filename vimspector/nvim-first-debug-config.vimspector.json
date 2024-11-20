@@ -1,0 +1,26 @@
+{
+  "configurations": {
+    "debug nvim": {
+      "adapter": "vscode-cpptools",
+      "configuration": {
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceRoot}/build/bin/nvim",
+        "args": [
+          "--clean"
+        ],
+        "cwd": "${workspaceRoot}",
+        "environment": [
+          { "name": "VIMRUNTIME", "value": "${workspaceRoot}/runtime" }
+        ],
+        "externalConsole": true,
+        "stopAtEntry": true,
+        "MIMode": "lldb",
+        "logging": {
+          "engineLogging": false
+        }
+      }
+    }
+  }
+}
+
